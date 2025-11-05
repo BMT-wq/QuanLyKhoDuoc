@@ -1,0 +1,16 @@
+# Thư mục build và file thực thi
+[Bb]in/
+[Oo]bj/
+
+# Files và thư mục của Visual Studio
+*.suo
+*.user
+*.vspscc
+*.vssscc
+.vs/
+
+# File cấu hình do người dùng tạo
+*.userprefs
+
+# File do Rider tạo
+.idea/
