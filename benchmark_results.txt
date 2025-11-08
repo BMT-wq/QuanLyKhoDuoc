@@ -1,0 +1,7 @@
+﻿Thời gian Thêm: 0 ms
+Tổng bộ nhớ dữ liệu: 0.01 MB
+Thời gian Tìm theo Mã (O(1)): 0.305600 ms
+Thời gian Cập nhật (O(1)): 0.283500 ms
+Thời gian Tìm theo HSD (O(log N)): 9.017600 ms
+Thời gian Xóa (O(log N)): 2.121900 ms
+--- BENCHMARK HOÀN TẤT ---

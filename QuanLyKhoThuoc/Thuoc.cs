@@ -26,5 +26,10 @@ namespace ConsoleApp1
         {
             return $"[{MaThuoc}] {TenThuoc} | DVT: {DonViTinh} | HSD: {HanSuDung.ToShortDateString()} | SL Ton: {SoLuongTon}";
         }
+        public override string ToString()
+        {
+            // Định dạng dùng cho việc lưu file: Ma,Ten,DVT,HSD(dd/MM/yyyy),SL
+            return $"{MaThuoc},{TenThuoc},{DonViTinh},{HanSuDung.ToString("dd/MM/yyyy")},{SoLuongTon}";
+        }
     }
 }
