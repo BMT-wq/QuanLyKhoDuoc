@@ -9,11 +9,12 @@ namespace ConsoleApp1
     public static class MenuHelper
     {
         // Hằng số cho căn lề bảng (đảm bảo thẳng hàng, không dùng Tab)
+        // Dòng 10-17 trong hình ảnh image_1c17e4.jpg
         public const int COL_MA = 12;
-        public const int COL_TEN = 30;
+        public const int COL_TEN = 30; // Đảm bảo đã sửa thành 30 như yêu cầu
         public const int COL_HSD = 12;
         public const int COL_SL = 10;
-        public const int TOTAL_WIDTH_DISPLAY = 60; // Chiều rộng cho dòng kẻ
+        public const int TOTAL_WIDTH_DISPLAY = 60; // Chiều rộng cho dòng kẻng kẻ
 
         public static void DrawBoxedTitle(string title)
         {
